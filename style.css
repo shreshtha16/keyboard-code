@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .display {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .key, .keycode {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .history {
+    margin-top: 20px;
+  }
+  
+  .history ul {
+    list-style: none;
+    padding: 0;
+  }
+  
